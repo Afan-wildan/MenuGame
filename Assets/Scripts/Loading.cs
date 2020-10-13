@@ -9,7 +9,7 @@ public class Loading : MonoBehaviour {
 	[SerializeField] private float delayLoading = 3f;
 
 	//nama scene untuk pindah scene yang di inputkan pada inspector
-	[SerializeField] private string nameScene;
+	[SerializeField] private string namaScene;
 
 	private float timElapsed;
 
@@ -17,6 +17,7 @@ public class Loading : MonoBehaviour {
 		timElapsed += Time.deltaTime;
 
 		if (timElapsed > delayLoading) {
+			SceneManager.LoadScene (namaScene);
 		}
 	}
 }

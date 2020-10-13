@@ -445,7 +445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayLoading: 3
-  nameScene: Menu
+  namaScene: Main
 --- !u!1 &1635643641
 GameObject:
   m_ObjectHideFlags: 0
